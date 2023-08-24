@@ -1,0 +1,44 @@
+#root {
+  display: flex;
+  max-width: 100vw;
+  margin: 0 auto;
+  text-align: center;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+img {
+  max-width: 300px;
+  max-height: 300px;
+}
+
+label {
+  font-size: 1.2rem;
+  font-weight: 400;
+  padding: 0;
+  margin: 0;
+}
+
+.canvas-area {
+  margin-top: 20px;
+}
+
+.triangle-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.triangle-list h3 {
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+  color: red;
+}
+
+input {
+  margin: 2px;
+}
